@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int Bin10Dec (unsigned int Bin) {
+    int p = 0;
+    int Dec = 0;
+    while (Bin > 0) {
+        Dec += (Bin % 10 ) * pow (2, p);
+        p++;
+        Bin /= 10;
+    }
+    return Dec;
+}
+
+int main() {
+    unsigned int Bin;
+    cout << "\nnhập vào mã nhị phân: ";
+    cin >> Bin;
+    cout << "số thập phân la: " << Bin10Dec (Bin);
+
+    return 0;
+}
