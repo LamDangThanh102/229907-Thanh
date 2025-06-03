@@ -1,3 +1,3 @@
 Name: Lam Dang Thanh
 Interests: Coding, Design
-Skills: Strong experience in SQL
+Skills: SQL,OOP, MVC Web
